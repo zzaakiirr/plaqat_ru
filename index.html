@@ -6,43 +6,68 @@
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
     <link rel="stylesheet" href="node_modules/fontawesome-free-5.0.6/on-server/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="src/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-1.8.0/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-1.8.0/slick/slick-theme.css">
   </head>
   <body>
     <nav class="navbar is-transparent">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="#">
-        <img src="src/img/ .. " alt="Colored Logo">
-      </a>
-      <div class="navbar-burger burger" data-target="navbarTransparent">
-        <span></span>
-        <span></span>
-        <span></span>
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <img src="src/img/ .. " alt="Colored Logo">
+        </a>
+        <div class="navbar-burger burger" data-target="navbarTransparent">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="navbarTransparent" class="navbar-menu">
+        <div class="navbar-start">
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a href="#">Главная</a>
+          </div>
+          <div class="navbar-item">
+            <a href="#themes">Тематика</a>
+          </div>
+          <div class="navbar-item">
+            <a href="#contacts">Контакты</a>
+          </div>
+          <div class="navbar-item">
+            <a href="#basket">Корзина</a>
+            <i class="fas fa-shopping-basket"></i>
+          </div>
+          <div class="navbar-item">
+            <a href="#user">Личный кабинет</a>
+            <i class="fas fa-user-circle"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div class="slider">
+      <div>
+        <img src="http://placehold.it/350x300?text=1">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=2">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=3">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=4">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=5">
+      </div>
+      <div>
+        <img src="http://placehold.it/350x300?text=6">
+      </div>
       </div>
     </div>
-    <div id="navbarTransparent" class="navbar-menu">
-      <div class="navbar-start">
-      </div>
-      <div class="navbar-end">
-       <div class="navbar-item">
-          <a href="#">Главная</a>
-        </div>
-        <div class="navbar-item">
-          <a href="#themes">Тематика</a>
-        </div>
-        <div class="navbar-item">
-          <a href="#contacts">Контакты</a>
-        </div>
-        <div class="navbar-item">
-          <a href="#basket">Корзина</a>
-          <i class="fas fa-shopping-basket"></i>
-        </div>
-        <div class="navbar-item">
-          <a href="#user">Личный кабинет</a>
-          <i class="fas fa-user-circle"></i>
-        </div>
-      </div>
-    </div>
-  </nav>
+   <script src="src/js/burger_script.js"></script>
+   <script src="src/js/slider.js"></script>
   </body>
-  <script src="src/js/burger_script.js"></script>
 </html>
