@@ -1,0 +1,23 @@
+nav a{
+	color: white;
+}
+nav .navbar-end .navbar-item.is-active{
+	background-color: #619DEE;
+}
+nav .navbar-end .navbar-item.is-active a{
+	color: black;	
+}
+nav .navbar-end .navbar-item:hover{ 
+	background-color: #D4C9C9; 
+}
+nav .navbar-end .navbar-item.is-active:hover{ 
+	background-color: #619DEE;
+}
+nav .navbar-end .navbar-item:hover a{
+	color: black;	
+}
+@media screen and (max-width: 1023px){
+	nav a{
+		color: black;
+	}
+}
