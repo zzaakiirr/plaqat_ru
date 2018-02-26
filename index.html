@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/fontawesome-free-5.0.6/on-server/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="src/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-1.8.0/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-1.8.0/slick/slick-theme.css">
+    <link rel="stylesheet" href="src/css/navbar.css">
   </head>
   <body>
-    
-  </body>
-  <script src="src/js/burger_script.js"></script>
-</html>
+    <nav class="navbar is-fixed-top is-black">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <img src="src/img/ .. " alt="colored logo">
+          </a>
+          <div class="navbar-burger burger" data-target="navbartransparent">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div id="navbartransparent" class="navbar-menu">
+          <div class="navbar-start">
+          </div>
+          <div class="navbar-end">
+            <div class="navbar-item is-active">
+              <a href="#">главная</a>
+            </div>
+            <div class="navbar-item">
+              <a href="#themes">тематика</a>
+            </div>
+            <div class="navbar-item">
+              <a href="#contacts">контакты</a>
+            </div>
+          </div>
+        </div>
+      </div>    </nav>
+      
+      <script src="src/js/burger_script.js"></script>
+      <script src="src/js/slider.js"></script>
+    </body>
+  </html>
