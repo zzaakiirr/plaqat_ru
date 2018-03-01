@@ -1,0 +1,21 @@
+footer.footer {
+    background-color: rgb(31, 34, 38);
+    color: white;
+}
+
+.fa {
+    margin-right: 1rem;
+}
+
+.fa-vk {
+    color: #45668e;
+}
+
+.fa-telegram {
+    color: #0088cc;
+    background-color: white;
+}
+
+.fa-instagram {
+    background-color: #cd486b;
+}
