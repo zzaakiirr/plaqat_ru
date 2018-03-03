@@ -1,0 +1,40 @@
+footer.footer {
+    background-color: rgb(31, 34, 38);
+    color: white;
+}
+
+@media screen and (max-width: 769px) {
+    footer .columns .column:nth-child(1) {
+        padding-top: 1.5rem;
+        padding-left: 5%;
+    }
+    footer .columns .column:nth-child(2) {
+        margin: -0.8rem 0;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    footer .container {
+        padding: 1.1rem 0;
+    }
+    footer .column {
+        margin: auto;
+    }
+}
+
+.fa {
+    margin-right: 1rem;
+}
+
+.fa-vk {
+    color: #45668e;
+}
+
+.fa-telegram {
+    color: #0088cc;
+    background-color: white;
+}
+
+.fa-instagram {
+    background-color: #cd486b;
+}
